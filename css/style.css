@@ -1,0 +1,110 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid black;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 3px;
+	width: 11%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0px 50px;
+	padding: 10px 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .3s;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+}
+/*banner end*/
+/*newslatter start*/
+.newsletter {
+	padding: 75px 0px;
+	background-color: #F0F0F0;
+}
+.news_title h2{
+	padding-bottom: 85px;
+	font-size: 30px;
+    color: #333333;
+    text-align: center;
+}
+.email_input {
+	margin: 0 auto;
+	width: 33.2%;
+	position: relative;
+    /*border: 1px solid red;*/
+}
+.email{
+	width: 34%;
+	padding: 0px 372px 15px 0px;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: #626262;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.send_icon {
+	margin-top: -30px;
+    width: 5%;
+    right: 2%;
+    float: right;
+    position: absolute;
+    /*border: 1px solid red;*/
+}
+.send_icon a{
+	cursor: pointer;
+}
+.send_icon img{
+	width: 100%;
+	cursor: pointer;
+}
+/*newslatter end*/
