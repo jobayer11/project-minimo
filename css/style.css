@@ -81,30 +81,21 @@ header{
 	position: relative;
     /*border: 1px solid red;*/
 }
+form a{
+	margin-top: 15px;
+    position: absolute;
+    right: 1%;
+}
 .email{
-	width: 34%;
-	padding: 0px 372px 15px 0px;
-	font-family: 'Playfair Display', serif;
-	font-size: 16px;
-	color: #626262;
+	width: 100%;
+    padding: 10px 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #626262;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
 }
-.send_icon {
-	margin-top: -30px;
-    width: 5%;
-    right: 2%;
-    float: right;
-    position: absolute;
-    /*border: 1px solid red;*/
-}
-.send_icon a{
-	cursor: pointer;
-}
-.send_icon img{
-	width: 100%;
-	cursor: pointer;
-}
+
 /*newslatter end*/
